@@ -1,0 +1,5 @@
+<div class="col-12 text-center mb-5">
+    <a routerLink="/show" mat-raised-button color="accent" class="mt-2" *ngIf="!isShow" (click)="toggleShow()">Shows</a>
+    <a routerLink="/movie" mat-raised-button color="accent" class="mt-2" *ngIf="isShow" (click)="toggleShow()">Movies</a>
+</div>
+<router-outlet></router-outlet>
