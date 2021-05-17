@@ -14,8 +14,11 @@ namespace MovieRatingTask.Data.Models
             MovieShowId = movieId;
         }
         public Guid Id { get; set; }
+
         public Guid MovieShowId { get; set; }
+
         public MovieShow MovieShow { get; set; }
+        
         public double Stars { get; set; }
     }
 }

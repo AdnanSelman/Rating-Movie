@@ -9,6 +9,7 @@ namespace MovieRatingTask.Data.Models
         public Guid Id { get; set; }
 
         public CastMovie CastMovie { get; set; }
+
         public ICollection<CastActor> CastActors { get; set; }
     }
 }
